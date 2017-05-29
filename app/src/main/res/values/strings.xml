@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">Kodework</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about">About Us</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abt_details">We are a group of enthusiastic and passionate individuals who love what we do. We develop web products that are capable of putting you on the digital map. We are buzz word compliant and have proven experience with single page web applications, PHP, cross platform mobile applications, Appcelerator Titanium, Ionic Framework, Phonegap, Sencha touch, HTML5, SVG animations, UI research, UI prototyping, Agile, responsive web design, and WordPress, among other skills. What this means is that you come to us with an idea and we use our expertise to structure, animate and style that dream and make it a reality. Our team is an eclectic bunch of people, all of whom have one thing in common – we love the web and we think developing web products is fun. Our team is both inquisitive and innovative – we look not only to do new things but also for new ways to do things. We’ve put a significant amount of effort into putting a team together that can handle your entire project, right from design to delivery and beyond. Our goal is to form a partnership with you that lasts a lifetime, not because you’re bound to us, but because you can rely on us to deliver an excellent product at all times.</string>
+    <string name="outsource">Offshore software development requires not only specialist skills and knowledge but can also take a long time and be expensive. It therefore makes sense to bring in a software development outsourcer when you want to increase the output of your own development team without having to employ additional expensive programmers to implement your ideas. We’ve been providing services like this to companies in Western Europe for over a decade. So, why develop the software by yourself, if we can do that for you?</string>
+    <string name="careers">Careers</string>
+    <string name="services">Services</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="blog">Blog</string>
+    <string name="tech_skills">Tech skills</string>
+    <string name="our_locations">Our Locations</string>
+    <string name="connect_with_us">Connect With Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="who_are_we">Who are we?</string>
+    <string name="our_team">Our Team</string>
+
+    <string name="business_out">We have recently moved into our new studio in Mumbai after having reached our housing limit in the previous office. Six months into business and we are already expanding. Outsourcing as an industry was big in the 2000s but it has been hit by a new wave of evolution. Some of the major companies have been hit hard and are shifting gears to accommodate requirements. In big organisations it’s rather hard to pivot or evolve. They are definitely trying to do all they can, but do they have the time they need?
+Fast forward to the 2014/15 start-ups. They are motivated, small-sized and pack a real punch. They are nurtured in tech and bloom in the cloud. This makes them flexible. Mritunjay Singh, operating chief of outsourcer Persistent Systems, predicts a “bloodbath” in which only nimbler companies will survive.
+
+Agility is a problem when your 5000+ employees, agility is a problem when you’ve got “processes”. It’s a problem when employees have been doing the same thing for years and are not used to change. Flexibility is a dream here. Not being flexible enough is leading to a drop in the global outsourcing deals.
+
+This is quite a huge problem for India as outsourcing accounts for 20% of its exports of goods and services. But does this mean that start-ups have the upper hand? “In 2000, the services business was disrupted by the introduction of offshore players who could outsource functions better than others,” said Persistent’s Mr. Singh. “We see the current disruption playing out in a similar way.…Some companies will do well, others will fail.”</string>
+    <string name="business_analysis">What is Business Analysis? Business Analysis is the practice of enabling change in an organizational context, by defining needs and recommending solutions that deliver value to stakeholders. Business Analysis Helps Businesses Do Business Better Business Analysis is a disciplined approach for introducing and managing change to organisations, whether they are for-profit businesses, governments, or non-profits. It is used to identify and articulate the need for change in how organisations work, and to facilitate that change. It is the process of identifying and defining the solutions that will maximize the value delivered by an organisation to its stakeholders. It operates across all levels of an organisation and may be involved in everything from defining strategy, to creating the enterprise architecture, to defining the goals and requirements for programs and projects or supporting continuous improvement in its technology and processes. The value of business analysis is in realisation of benefits, avoidance of cost, identification of new opportunities, understanding of required capabilities and modeling the organisation. Through the effective use of business analysis, It is possible to ensure an organisation realises these benefits, ultimately improving the way it does business.</string>
+    <string name="web_des">Web design is a combination of knowledge, techniques and different skills that together help to build a website. Web design is closely related to user interface, user experience, graphic design, content design and optimization for search engines.
+
+The customer’s first impression is very important, and a professionally designed website makes all the difference. What characterises a good design is that the website is simple and easy for customers to navigate. At the same time, we emphasize cleanness, simplicity and a good user experience.
+
+We provide you with a design that belongs in 2015, while providing the customer with a good user experience.</string>
+    <string name="web_design">Web Design</string>
+    <string name="responsive_design">Responsive Design</string>
+    <string name="resp_text">The number of users who visit the internet via mobile devices such as iPhones and iPads increases significantly each year. It is therefore essential that the website is optimised for mobile devices, so we can give the customer a good user experience across various devices.</string>
+    <string name="web_dev">Web Development</string>
+    <string name="we_dev_text">We have enormous resources and a lot of expertise in web development and can therefore customise the website just the way you want it. We can supply everything from custom functions and modules to advanced systems and applications. We place great emphasis on integrating our sites to systems that make it easy for your business to keep the website updated following the launch. For this we use so-called Content Management Systems (CMS).</string>
+    <string name="cms">Content Management Systems</string>
+    <string name="cms_txt">We know that many are concerned about how they will be able to keep the website updated following the launch. We solved this challenge by linking the website to a content management system (CMS) that makes it easy to keep the website updated, without the need for additional expertise.</string>
+    <string name="cms_we">Here is a selection of Content Management Systems that we use:</string>
+    <string name="qa_text">We have a dedicated team whose sole focus is to ensure that the delivered product is of the highest quality. This team goes through every single category on the website and checks for bugs and errors, as well as tests the website across different browsers and mobile devices. Errors are noted and reported to a development team that takes care of this. We use Agile Methodology, Sprint planning, SCRUM, CMMI processes, Regression tests, Sanity tests, Smoke tests, AdHoc tests and LOAD testing.</string>
+    <string name="qa">Quality Assurance</string>
+    <string name="emp_txt">
+<p>
+The global economy has changed, making recruiting and hiring the right candidates a lot more difficult. New economic conditions include global competition, lightning fast changing business conditions, high unemployment, skills shortages, and a war for talent. Finding and hiring the right people in this kind of recruiting environment requires keeping up with new recruiting technology and social media, developing relationships with successful candidates, and asking the right questions. Busy hiring managers and employers achieve all that when they outsource recruiting.
+</p>
+Cost containment and the need to focus on core business operations are at the top of the list of several common reasons to outsource recruiting. Outsourcing all of your recruiting or just part of your recruitment process puts the reins in the hands of experienced recruitment consultants, saving you time and money. Other reasons employers choose to outsource recruiting include a need to improve recruiting processes, reduce a high turnover rate, control rapid growth or seasonality that makes it impossible to keep up with hiring needs, develop competitive advantage, and coordinate recruiting and on-boarding .
+/n
+1. Reduce Costs
+/n
+In a volatile economy, reducing costs rises to the top of the to-do list quickly. Besides labor costs, the costs related to recruiting activities include advertising on job boards, background screening, applicant tracking systems, and recruiting technology. These costs are all rolled into one when companies outsource recruiting. And it’s usually less than trying to conduct an effective recruiting campaign in-house.
+/n
+Cost-per-hire is a key HR metric and when companies outsource recruiting to an RPO, cost-per-hire is often reduced along with time-to-hire because of dedicated recruiting resources. Other ways costs get reduced through outsourced recruiting include shared risk and streamlined processes. Passing the responsibility of expanded or shrinking recruiting needs to a dedicated outsourced recruiter eliminates employing unnecessary staff for recruiting or being short of staff when business spikes. When employers outsource recruiting, they streamline recruiting processes by assigning them to an outside firm (ideally an RPO), eliminating delays ad duplication of tasks, and paying for specific recruiting activities.
+/n
+2. Focus on Core Business
+/n
+Whether or not a company has a dedicated recruiter or some kind of recruiting function, most are not in the recruiting industry. Any recruiting tasks and activities will be outside of the core business functions and take resources from core business operations. When the recruiting process is outsourced to recruiting specialists, it doesn’t take anything away from core business activities and enables employers to find the talent they need without distractions from business operations.
+/n
+Human resources staff with recruiting responsibilities can quickly become overwhelmed with recruiting volume and unable to focus on their core HR responsibilities. When this happens, it can have a ripple effect, interfering with human resources productivity and workflows and their ability to provide service for benefits, payroll, compliance, and employee programs.
+/n
+3. Improve Recruiting Effectiveness
+/n
+With a competitive global job market, ongoing skills shortage, and limited locations for recruiting, it’s difficult for many organizations to find qualified candidates or improve their recruiting effectiveness with in-house recruiting. They may not be able to achieve recruiting process improvements with existing staff and when urgent recruiting needs start to back up, there is no good way to get caught up with hiring. When they outsource recruiting, they benefit from recruiting firms’ ability to reach more candidates, access passive candidates that they may not otherwise be able to engage, and realize more efficient use of recruiting resources.
+/n
+4. A High Turnover Rate
+/n
+High turnover costs money in lost and interrupted productivity, lower customer service, and lower employee engagement. But turnover may have less to do with recruiting staff abilities or compensation and more to do with the recruiting function. Companies can address high turnover when they outsource recruiting to get better qualified candidates, and a better recruiting process from experienced, dedicated recruiters. Companies enjoy higher quality hires of candidates who are vetted and well-matched to the company’s openings and culture. When ongoing high turnover starts to strain a company’s resources, the decision to outsource can be a quicker, cheaper way to stop recruiting-related turnover.
+/n
+5. Rapid Growth
+/n
+Companies experiencing rapid growth or seasonal spikes that make it difficult to meet recruiting needs often outsource recruiting to better control fluctuating recruiting activity’s impact on the business. Seasonal recruiting or periods of rapid growth or expansion strain existing staff and make in-house recruiting a huge challenge. Outside recruiting firms can take over an internal recruiting process with dedicated staff, more experienced recruiters, advanced recruiting technology, and social recruiting methods to meet unusual growth patterns.
+/n
+6. Competitive Advantage
+/n
+Small companies and start-ups that don’t have the same resources as their larger competitors can compete better when they outsource recruiting. A recruiting firm can more quickly and efficiently find top candidates to help small or new companies build their key staff and keep up with larger companies with more resources.
+/n
+7. Coordinate Recruiting and On-boarding
+/n
+Companies with disjointed recruiting and on-boarding processes can benefit from the services that outsourced recruiting firms provide to integrate sourcing, recruiting, hiring, and on-boarding. When one department is recruiting, the hiring manager is responsible for hiring, and the human resources staff performs on-boarding, interruptions in candidate experience and recruiting efficiencies can cause problems in other areas of the company. Productivity and turnover are among the first business areas to suffer when recruiting and on-boarding processes aren’t working.
+/n
+When companies outsource recruiting, it’s usually in direct response to specific business needs. Whether it’s to save money, achieve process improvements, reduce turnover, or control an issue of recruiting volume, there are many situations where outsourcing the recruiting process, and possibly on-boarding processes as well, solves business problems. Recruiting firms can dedicate their time and resources to sourcing, engaging, contacting, hiring, and on-boarding top talent that is beyond the reach of small or new companies. Companies can better focus on their core business operations when they are well-staffed with qualified, engaged employees who have been hired with a good recruiting process. Outsourcing recruiting allows companies to meet their recruiting needs without causing other business problems.</string>
+    <string name="call">Call +917506203013</string>
+    <string name="mail">support@kodework.com</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_skill">SkillActivity</string>
+</resources>
