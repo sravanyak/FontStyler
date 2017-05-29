@@ -1,4 +1,4 @@
-package com.ninestack.fontstyler;
+package com.sunnag.fontstyler;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

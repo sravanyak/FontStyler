@@ -1,4 +1,4 @@
-package com.ninestack.fontstyler;
+package com.sunnag.fontstyler;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -17,7 +17,7 @@ public class FontStylerView extends android.support.v7.widget.AppCompatTextView 
     public static String fontName ="";
     public static boolean fontType =false;
 
-   /* public FontStylerView(Context context, AttributeSet attrs) {
+    /* public FontStylerView(Context context, AttributeSet attrs) {
         super(context, attrs);
         applyCustomFont(context, attrs);
     }*/
@@ -25,7 +25,7 @@ public class FontStylerView extends android.support.v7.widget.AppCompatTextView 
     public FontStylerView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         //applyStyledFont(context, attrs);
-        //  applyCustomFont(context, attrs);
+        //applyCustomFont(context, attrs);
     }
 
     public FontStylerView(Context context, AttributeSet attrs) {
@@ -41,7 +41,7 @@ public class FontStylerView extends android.support.v7.widget.AppCompatTextView 
 
             if (attr == R.styleable.FontStylerView_fancyText) {
                 fontType = a.getBoolean(attr, false);
-//                fancyText();
+            //                fancyText();
             }
         }
         a.recycle();
