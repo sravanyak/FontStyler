@@ -41,11 +41,11 @@
 
                 <com.sunnag.fontstyler.FontStylerView
                     android:textStyle="bold"
+                    app:fontName="Lato-Bold"
                     android:text="@string/about_us"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:paddingTop="8dp"
-                    app:fontName="Lato-Bold"
                     android:textSize="18sp"
                     android:id="@+id/textView64" />
 
@@ -59,11 +59,11 @@
                     android:id="@+id/textView2" />-->
 
                 <com.sunnag.fontstyler.FontStylerView
+                    app:fontName="Lato-Regular"
+                    android:textStyle="normal"
                     android:text="@string/abt_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:fontName="Lato-Regular"
-                    android:textStyle="normal"
                     android:gravity="left"
                     android:paddingTop="8dp"
                     android:textAlignment="gravity"

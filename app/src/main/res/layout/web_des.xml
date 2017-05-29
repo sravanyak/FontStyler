@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="6dp">
 
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+
+        app:fontName="Lato-Bold"
         android:text="@string/web_design"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +24,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView6" />
 
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        android:textStyle="bold"
+        app:fontName="Lato-Bold"
         android:text="@string/responsive_design"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,14 +41,16 @@
        android:layout_height="wrap_content"
        android:id="@+id/textView9" />
 
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        android:textStyle="bold"
+        app:fontName="Lato-Bold"
         android:text="@string/web_dev"
         android:paddingTop="8dp"
         android:paddingBottom="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:textStyle="bold"
+
         android:id="@+id/textView7a" />
 
     <TextView
@@ -52,7 +59,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView6a" />
 
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        android:textStyle="bold"
+        app:fontName="Lato-Bold"
         android:text="@string/cms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,38 +76,48 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView9a" />
 
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+
+        app:fontName="Lato-Bold"
         android:text="@string/cms_we"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:id="@+id/textView9x" />
 
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        android:textStyle="bold"
+        app:fontName="Lato-Bold"
         android:text="WordPress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
+
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/bullet"
         android:id="@+id/textView9xf" />
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        android:textStyle="bold"
+        app:fontName="Lato-Bold"
         android:text="WooCommerce"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
+
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/bullet"
         android:id="@+id/textView9xe" />
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        android:textStyle="bold"
+        app:fontName="Lato-Bold"
         android:text="Magento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
+
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/bullet"
         android:id="@+id/textView9xd" />
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+
+        app:fontName="Lato-Bold"
         android:text="Hex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,7 +125,8 @@
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/bullet"
         android:id="@+id/textView9xc" />
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        app:fontName="Lato-Bold"
         android:text="Kentico"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -114,7 +134,8 @@
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/bullet"
         android:id="@+id/textView9xb" />
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        app:fontName="Lato-Bold"
         android:text="Shopify"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -122,7 +143,6 @@
         android:drawablePadding="5dp"
         android:drawableLeft="@drawable/bullet"
         android:id="@+id/textView9xa" />
-
 
     <TextView
         android:text="@string/qa"
@@ -138,6 +158,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView9aqat" />
-
 
 </LinearLayout>

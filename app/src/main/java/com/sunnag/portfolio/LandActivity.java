@@ -23,6 +23,8 @@ import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.sunnag.fontstyler.FontStylerView;
+
 public class LandActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         TabLayout.OnTabSelectedListener, AboutFragment.OnFragmentInteractionListener,
@@ -69,7 +71,7 @@ public class LandActivity extends AppCompatActivity
             headerLayout = (LinearLayout) navigationView.getHeaderView(0);
         }
 
-        final TextView headerCall = (TextView) headerLayout.findViewById(R.id.caller);
+        final FontStylerView headerCall = (FontStylerView) headerLayout.findViewById(R.id.caller);
         headerCall.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 if (ActivityCompat.checkSelfPermission(LandActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {

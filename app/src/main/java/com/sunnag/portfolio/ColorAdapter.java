@@ -17,6 +17,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.sunnag.fontstyler.FontStylerView;
+
 import java.util.Random;
 
 public class ColorAdapter extends RecyclerView.Adapter<ColorAdapter.ViewHolder> {
@@ -30,11 +32,11 @@ public class ColorAdapter extends RecyclerView.Adapter<ColorAdapter.ViewHolder> 
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
-        public TextView mTextView;
+        public FontStylerView mTextView;
         ImageView mImageView ;
         public ViewHolder(View v){
             super(v);
-            mTextView = (TextView)v.findViewById(R.id.tv);
+            mTextView = (FontStylerView)v.findViewById(R.id.tv);
             mImageView = (ImageView) v.findViewById(R.id.imageView2);
         }
     }

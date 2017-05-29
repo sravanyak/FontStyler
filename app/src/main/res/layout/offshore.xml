@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <com.sunnag.fontstyler.FontStylerView
+        app:fontName="Lato-Regular"
+        android:textStyle="normal"
         android:text="The customer contact center is one of the most under-exploited resources in the modern enterprise. Originally set up to consolidate and automate “routine” customer transactions, call centers today are ideally positioned to drive the next wave of customer value creation. This “perfect storm” of opportunity has been made possible by radical leaps in our understanding of customer relationship management and the power of the enabling technologies. Companies that fail to bring their contact centers into alignment with this potential will be at a significant disadvantage.
 
 Telemarketing
