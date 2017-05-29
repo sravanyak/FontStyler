@@ -26,7 +26,8 @@ Step 2. Add the dependency
 - add your font name as app:fontName="Lato-Bold" 
 - set textStyle according to your font 
 
-   <com.ninestack.fontstyler.FontStylerView
+   <com.sunnag.fontstyler.FontStylerView
+ 
                     android:textStyle="bold"
                     android:text="@string/about_us"
                     android:layout_width="match_parent"
