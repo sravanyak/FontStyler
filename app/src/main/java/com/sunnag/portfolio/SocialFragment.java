@@ -1,26 +1,23 @@
-package com.ninestack.kodeworks;
+package com.sunnag.portfolio;
 
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link PortfolioFragment.OnFragmentInteractionListener} interface
+ * {@link SocialFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link PortfolioFragment#newInstance} factory method to
+ * Use the {@link SocialFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class PortfolioFragment extends Fragment {
+public class SocialFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -32,15 +29,7 @@ public class PortfolioFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-
-    //RelativeLayout mRelativeLayout;
-    private RecyclerView mRecyclerView;
-
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
-
-
-    public PortfolioFragment() {
+    public SocialFragment() {
         // Required empty public constructor
     }
 
@@ -50,11 +39,11 @@ public class PortfolioFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment PortfolioFragment.
+     * @return A new instance of fragment SocialFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static PortfolioFragment newInstance(String param1, String param2) {
-        PortfolioFragment fragment = new PortfolioFragment();
+    public static SocialFragment newInstance(String param1, String param2) {
+        SocialFragment fragment = new SocialFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -75,27 +64,7 @@ public class PortfolioFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_portfolio, container, false);
-        // Get the widgets reference from XML layout
-        //mRelativeLayout = (RelativeLayout)view. findViewById(R.id.rl);
-        mRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
-
-        // Initialize a new String array
-        String[] colors = {
-                "Red","Green","Blue","Yellow","Magenta","Cyan","Orange",
-                "Aqua","Azure","Beige","Bisque","Brown","Coral","Crimson"
-        };
-
-        mLayoutManager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
-        mRecyclerView.setLayoutManager(mLayoutManager);
-
-        // Initialize a new instance of RecyclerView Adapter instance
-        mAdapter = new ColorAdapter(getActivity(),colors);
-
-        // Set the adapter for RecyclerView
-        mRecyclerView.setAdapter(mAdapter);
-
-        return view;
+        return inflater.inflate(R.layout.fragment_social, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

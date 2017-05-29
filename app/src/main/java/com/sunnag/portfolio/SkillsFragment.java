@@ -1,4 +1,4 @@
-package com.ninestack.kodeworks;
+package com.sunnag.portfolio;
 
 import android.content.Context;
 import android.net.Uri;
@@ -7,17 +7,22 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.widget.Toast;
+
+import com.eralp.circleprogressview.CircleProgressView;
+import com.eralp.circleprogressview.ProgressAnimationListener;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link SocialFragment.OnFragmentInteractionListener} interface
+ * {@link SkillsFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link SocialFragment#newInstance} factory method to
+ * Use the {@link SkillsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SocialFragment extends Fragment {
+public class SkillsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +34,7 @@ public class SocialFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public SocialFragment() {
+    public SkillsFragment() {
         // Required empty public constructor
     }
 
@@ -39,11 +44,11 @@ public class SocialFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment SocialFragment.
+     * @return A new instance of fragment SkillsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static SocialFragment newInstance(String param1, String param2) {
-        SocialFragment fragment = new SocialFragment();
+    public static SkillsFragment newInstance(String param1, String param2) {
+        SkillsFragment fragment = new SkillsFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,7 +69,26 @@ public class SocialFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_social, container, false);
+        View view =  inflater.inflate(R.layout.fragment_skills, container, false);
+
+        CircleProgressView mCircleProgressView = (CircleProgressView) view.findViewById(R.id.circle_progress_view);
+        mCircleProgressView.setTextEnabled(false);
+        mCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        mCircleProgressView.setStartAngle(45);
+        mCircleProgressView.setProgressWithAnimation(85, 2000);
+
+        mCircleProgressView.addAnimationListener(new ProgressAnimationListener() {
+            @Override
+            public void onValueChanged(float value) {
+
+            }
+
+            @Override
+            public void onAnimationEnd() {
+                Toast.makeText(getActivity(), "Animation of CircleProgressView done", Toast.LENGTH_SHORT).show();
+            }
+        });
+        return inflater.inflate(R.layout.fragment_skills, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -77,12 +101,12 @@ public class SocialFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
+       /* if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
-        }
+        }*/
     }
 
     @Override

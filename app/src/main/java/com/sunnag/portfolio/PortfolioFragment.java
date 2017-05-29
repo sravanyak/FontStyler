@@ -1,28 +1,25 @@
-package com.ninestack.kodeworks;
+package com.sunnag.portfolio;
 
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AccelerateDecelerateInterpolator;
-import android.widget.Toast;
-
-import com.eralp.circleprogressview.CircleProgressView;
-import com.eralp.circleprogressview.ProgressAnimationListener;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link SkillsFragment.OnFragmentInteractionListener} interface
+ * {@link PortfolioFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link SkillsFragment#newInstance} factory method to
+ * Use the {@link PortfolioFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SkillsFragment extends Fragment {
+public class PortfolioFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -34,7 +31,15 @@ public class SkillsFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public SkillsFragment() {
+
+    //RelativeLayout mRelativeLayout;
+    private RecyclerView mRecyclerView;
+
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
+
+
+    public PortfolioFragment() {
         // Required empty public constructor
     }
 
@@ -44,11 +49,11 @@ public class SkillsFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment SkillsFragment.
+     * @return A new instance of fragment PortfolioFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static SkillsFragment newInstance(String param1, String param2) {
-        SkillsFragment fragment = new SkillsFragment();
+    public static PortfolioFragment newInstance(String param1, String param2) {
+        PortfolioFragment fragment = new PortfolioFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -69,26 +74,27 @@ public class SkillsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_skills, container, false);
+        View view = inflater.inflate(R.layout.fragment_portfolio, container, false);
+        // Get the widgets reference from XML layout
+        //mRelativeLayout = (RelativeLayout)view. findViewById(R.id.rl);
+        mRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
 
-        CircleProgressView mCircleProgressView = (CircleProgressView) view.findViewById(R.id.circle_progress_view);
-        mCircleProgressView.setTextEnabled(false);
-        mCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
-        mCircleProgressView.setStartAngle(45);
-        mCircleProgressView.setProgressWithAnimation(85, 2000);
+        // Initialize a new String array
+        String[] colors = {
+                "Red","Green","Blue","Yellow","Magenta","Cyan","Orange",
+                "Aqua","Azure","Beige","Bisque","Brown","Coral","Crimson"
+        };
 
-        mCircleProgressView.addAnimationListener(new ProgressAnimationListener() {
-            @Override
-            public void onValueChanged(float value) {
+        mLayoutManager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
+        mRecyclerView.setLayoutManager(mLayoutManager);
 
-            }
+        // Initialize a new instance of RecyclerView Adapter instance
+        mAdapter = new ColorAdapter(getActivity(),colors);
 
-            @Override
-            public void onAnimationEnd() {
-                Toast.makeText(getActivity(), "Animation of CircleProgressView done", Toast.LENGTH_SHORT).show();
-            }
-        });
-        return inflater.inflate(R.layout.fragment_skills, container, false);
+        // Set the adapter for RecyclerView
+        mRecyclerView.setAdapter(mAdapter);
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -101,12 +107,12 @@ public class SkillsFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-       /* if (context instanceof OnFragmentInteractionListener) {
+        if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
-        }*/
+        }
     }
 
     @Override

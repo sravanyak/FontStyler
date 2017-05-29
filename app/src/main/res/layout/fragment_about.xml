@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.ninestack.kodeworks.AboutFragment">
+    tools:context="com.sunnag.portfolio.AboutFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -39,7 +39,7 @@
                 android:padding="8dp"
                 android:orientation="vertical">
 
-                <com.ninestack.fontstyler.FontStylerView
+                <com.sunnag.fontstyler.FontStylerView
                     android:textStyle="bold"
                     android:text="@string/about_us"
                     android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/textView2" />-->
 
-                <com.ninestack.fontstyler.FontStylerView
+                <com.sunnag.fontstyler.FontStylerView
                     android:text="@string/abt_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

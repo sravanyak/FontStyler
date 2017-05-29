@@ -1,4 +1,4 @@
-package com.ninestack.kodeworks;
+package com.sunnag.portfolio;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
-import android.widget.Toast;
 
 import com.eralp.circleprogressview.CircleProgressView;
 import com.eralp.circleprogressview.ProgressAnimationListener;
